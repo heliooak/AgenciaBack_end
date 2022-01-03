@@ -1,0 +1,57 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<div class="container">
+            <div id="interface">
+                <header id="cabecalho">
+                    <hgroup>
+                        <img id="icone" src="/_imagens/contato.png">
+                        <h1>Explorer agências</h1>
+                    </hgroup>
+                </header>
+                <nav id="menu">
+                    <h1>Menu Principal</h1>
+                    <ul>
+                        <a asp-action="Index">
+                            <li onmouseover="mudaFoto('/_imagens/aviao01.png')" onmouseout="mudaFoto('/_imagens/contato.png')">Home</li>
+                        </a>
+                        <a asp-action="Destinos">
+                            <li onmouseover="mudaFoto('/_imagens/globo01.png')" onmouseout="mudaFoto('/_imagens/contato.png')">Destinos</li>
+                        </a>
+                        <a asp-action="Promocao">
+                            <li onmouseover="mudaFoto('/_imagens/promo.png')" onmouseout="mudaFoto('/_imagens/contato.png')">Promoções</li>
+                        </a>
+                        <a asp-action="Contato">
+                            <li onmouseover="mudaFoto('/_imagens/contato.png')" onmouseout="mudaFoto('/_imagens/contato.png')">Contato</li>
+                        </a>
+                    </ul>
+                </nav>
+                <section id="corpo-full">
+                    <article id="noticia-principal">
+                        <form method="post" id="fContato" action="mailto:contato@blabla.com" oninput="calc_total()">
+                            <fieldset id="localizacao">
+                                <legend>Localização</legend>
+                                    <p><label for="cCidade">Cidade: </label><input type="text" name="tCidade" id="cCidade" size="30" maxlength="30" placeholder="Digite aqui a Cidade"></p>
+                                    <p><label for="cCod">Código Postal: </label><input type="text" name="tCod" id="cCod" size="10" maxlength="10" placeholder="10 dígitos"></p>
+                                    <p><label for="cPais">País: </label><input type="text" name="tPais" id="cPais" size="30" maxlength="30" placeholder="Digite aqui o País"></p>
+                                    <p><label for="cCont">Continente: </label><input type="text" name="tCont" id="cCont" size="30" maxlength="30" placeholder="Digite aqui o Continente"></p>
+                            </fieldset>
+                            <fieldset id="caracteristica">
+                                <legend>Informações Locais</legend>
+                                    <p><label for="cIdioma">Idioma: </label><input type="text" name="tIdioma" id="cIdioma" size="30" maxlength="30" placeholder="Principal idioma local"></p>
+                                    <p><label for="cMoeda">Moeda: </label><input type="text" name="tMoeda" id="cMoeda" size="30" maxlength="30" placeholder="Iforme aqui a moeda local"></p>
+                            </fieldset>
+                            <span id="btn"><input id="btn" type="image" name="tEnviar" id="cEnviar" src="_imagens/botao-enviar.png"></span>
+                        </form>
+                    </article>
+                </section>
+            <footer id="rodape">
+            <p>
+            <a href="https://www.linkedin.com/in/h%C3%A9lio-carvalho-158223157/" target="_blank">LinkedIn</a> | <a href="https://www.facebook.com/helio.carvalho.24651" target="_blank">Facebook</a> | <a href="https://twitter.com/heliooak" target="_blank">Twitter</a> | <a href="https://www.instagram.com/heliocarvallho/" target="_blank">Instagram</a> | &copy;&trade;Hélio Carvalho
+            </p>
+            </footer>
+            </div>
+        </div>

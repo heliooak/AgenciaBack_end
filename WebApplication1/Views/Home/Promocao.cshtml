@@ -1,0 +1,75 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<div class="container">
+            <div id="interface">
+                <header id="cabecalho">
+                    <hgroup>
+                        <img id="icone" src="/_imagens/promo.png">
+                        <h1>Explorer agências</h1>
+                    </hgroup>
+                </header>
+                <nav id="menu">
+                    <h1>Menu Principal</h1>
+                    <ul>
+                        <a asp-action="Index">
+                            <li onmouseover="mudaFoto('/_imagens/aviao01.png')" onmouseout="mudaFoto('/_imagens/promo.png')">Home</li>
+                        </a>
+                        <a asp-action="Destinos">
+                            <li onmouseover="mudaFoto('/_imagens/globo01.png')" onmouseout="mudaFoto('/_imagens/promo.png')">Destinos</li>
+                        </a>
+                        <a asp-action="Promocao">
+                            <li onmouseover="mudaFoto('/_imagens/promo.png')" onmouseout="mudaFoto('/_imagens/aviao01.png')">Promoções</li>
+                        </a>
+                        <a asp-action="Contato">
+                            <li onmouseover="mudaFoto('/_imagens/contato.png')" onmouseout="mudaFoto('/_imagens/promo.png')">Contato</li>
+                        </a>
+                    </ul>
+                </nav>
+                <section id="corpo">
+                    <article id="noticia-principal">
+                        <header id="cabecalho-artigo">
+                            <hgroup>
+                                <h3>Pacotes > &nbsp;Viabilidade</h3>
+                                <h1>Dentro do seu orçamento</h1>
+                            </hgroup>
+                        </header>
+                        <h2>Super Ofertas</h2>
+                        <table id="tabelaspec">
+                                <caption>Tabela de promoções atual <span>Dez/2021</span></caption>
+                                <tr><td class="ce">Toronto - CAN</td><td class="cd">R$ 4.000,00 em até 20x</td></tr>
+                                <tr><td class="ce">Cairo - EG</td><td class="cd">R$ 6.460,00 em até 20x</td></tr>
+                                <tr><td class="ce">Nova Yorque - EUA</td><td class="cd">R$ 3.790,00 em até 18x</td></tr>
+                                <tr><td class="ce">Kilimanjaro - África</td><td class="cd">R$ 3.980,00 em até 18x</td></tr>
+                        </table>
+                        <h2>Como funciona</h2>
+                        <p>
+                            Todos os pacotes oferecem as viagens de ida e volta junto ao translado e roteiros de turismo com cafés da manhã incluso durante 7 dias nos melhores hóteis e pousadas.
+                        </p>
+                        <h2>O que você pode aguardar</h2>
+                        <p>
+                            Temos uma grande parceria com guias profissionais habilitados para que possa ser possível obter as melhores experiências e os lugares mais incríveis.
+                        </p>
+                    </article>
+                </section>
+                <aside id="lateral">
+                    <h2>Parceiros Globais</h2>
+                    <div class="video">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/_yACKInj9eg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <p>Copyright &copy; Air France</p>
+                    <h2>Segurança para você</h2>
+                    <div class="video">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/yWw00sOY6yI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </aside>
+                <footer id="rodape">
+                    <p>
+                        <a href="https://www.linkedin.com/in/h%C3%A9lio-carvalho-158223157/" target="_blank">LinkedIn</a> | <a href="https://www.facebook.com/helio.carvalho.24651" target="_blank">Facebook</a> | <a href="https://twitter.com/heliooak" target="_blank">Twitter</a> | <a href="https://www.instagram.com/heliocarvallho/" target="_blank">Instagram</a> | &copy;&trade;Hélio Carvalho
+                    </p>
+                </footer>
+            </div>
+        </div>
