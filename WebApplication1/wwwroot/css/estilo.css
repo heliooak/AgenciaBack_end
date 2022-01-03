@@ -152,10 +152,10 @@ nav#menu a:hover {
     text-decoration: none;
 }
 
-/* Header da página cadastro */
+/* Header da página contato */
 
 header#cad{
-    float: right;
+    float: left;
     display: block;
     max-width:280px;
 }

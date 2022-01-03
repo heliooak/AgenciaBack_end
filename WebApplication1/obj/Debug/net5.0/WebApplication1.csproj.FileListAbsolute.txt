@@ -358,3 +358,5 @@ C:\Users\heliocarvallho\Documents\Recode\AgenciaBack_end\WebApplication1\obj\Deb
 C:\Users\heliocarvallho\Documents\Recode\AgenciaBack_end\WebApplication1\obj\Debug\net5.0\Razor\Views\Home\Cadastrocliente.cshtml.g.cs
 C:\Users\heliocarvallho\Documents\Recode\AgenciaBack_end\WebApplication1\obj\Debug\net5.0\Razor\Views\Home\Cadastrodestino.cshtml.g.cs
 C:\Users\heliocarvallho\Documents\Recode\AgenciaBack_end\WebApplication1\obj\Debug\net5.0\Razor\Views\Home\Contato.cshtml.g.cs
+C:\Users\heliocarvallho\Documents\Recode\AgenciaBack_end\WebApplication1\obj\Debug\net5.0\Razor\Views\Home\ContatoII.cshtml.g.cs
+C:\Users\heliocarvallho\Documents\Recode\AgenciaBack_end\WebApplication1\obj\Debug\net5.0\Razor\Views\Home\Viagensprogramadas.cshtml.g.cs

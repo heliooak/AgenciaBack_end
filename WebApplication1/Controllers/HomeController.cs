@@ -36,5 +36,13 @@ namespace WebApplication1.Controllers
         {
             return View();
         }
+        public IActionResult ContatoII()
+        {
+            return View();
+        }
+        public IActionResult Viagensprogramadas()
+        {
+            return View();
+        }
     }
 }
