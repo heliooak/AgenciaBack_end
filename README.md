@@ -1,2 +1,2 @@
 # AgenciaExplorer
- Seguno Projeto Individual CRUD Funcional RecodePro 2021
+ Segunda fase do Projeto Individual CRUD Funcional atualizado RecodePro 2021
