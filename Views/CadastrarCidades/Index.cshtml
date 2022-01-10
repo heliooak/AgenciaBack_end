@@ -1,0 +1,47 @@
+﻿@model IEnumerable<AgenciaExplorer.Models.CadastrarCidade>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome_Cidade)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Valor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Moeda)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome_Cidade)
+            </td>
+            <td>
+                $@Html.DisplayFor(modelItem => item.Valor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Moeda)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id_Cidade">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id_Cidade">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id_Cidade">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
